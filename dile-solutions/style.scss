@@ -1,40 +1,38 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 // font styles
-$poppins : "Poppins", sans-serif;
-$lato : 'Lato', sans-serif;
+$poppins: "Poppins", sans-serif;
+$lato: "Lato", sans-serif;
 // font sizes
-$font-18 : 18px;
-$font-14 : 14px;
-$font-12 : 12px;
-$font-18 : 18px;
-$font-16 : 16px;
-$font-23 : 23px;
+$font-18: 18px;
+$font-14: 14px;
+$font-12: 12px;
+$font-18: 18px;
+$font-16: 16px;
+$font-23: 23px;
 // color
-$color-1 : #FFFFFF;
-$color-2 : #F8F9FA;
-$color-3 : #D1D5DF80;
-$color-4 : #DDDDDD;
-$color-5 : #000000;
-$color-6 : #555555;
-$color-7 : #307FEB;
-$color-8 : #E7EBF7;
-$color-9 : #EF1319;
-$color-10 : #EDEDED;
-$color-11 : #E6E6E6;
-$color-12 : #F5F5F5;
-$color-13 : #00000012;
-$color-14 : #EAF1FC;
-$color-15 : #D4D4D4;
-$color-16 : #FFF4F4;
-$color-17 : #F7A1A1;
-$color-18 : #DD4040;
-$color-19 : #A9A9A9;
-$color-20 : #1CB995;
-$color-21 : #707070;
-$color-22 : #BBD4F7;
-$color-23 : #F2F2F2;
-
-
+$color-1: #ffffff;
+$color-2: #f8f9fa;
+$color-3: #d1d5df80;
+$color-4: #dddddd;
+$color-5: #000000;
+$color-6: #555555;
+$color-7: #307feb;
+$color-8: #e7ebf7;
+$color-9: #ef1319;
+$color-10: #ededed;
+$color-11: #e6e6e6;
+$color-12: #f5f5f5;
+$color-13: #00000012;
+$color-14: #eaf1fc;
+$color-15: #d4d4d4;
+$color-16: #fff4f4;
+$color-17: #f7a1a1;
+$color-18: #dd4040;
+$color-19: #a9a9a9;
+$color-20: #1cb995;
+$color-21: #707070;
+$color-22: #bbd4f7;
+$color-23: #f2f2f2;
 
 body {
   font-family: "Poppins", sans-serif;
@@ -83,6 +81,8 @@ li {
   display: flex;
   width: 100%;
   align-items: stretch;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
 }
 
 #sidebar {
@@ -90,6 +90,9 @@ li {
   margin-left: 0rem;
   background: #ffffff;
   transition: margin 0.3s;
+  // border: 1px solid #dddddd;
+  border-radius: 5px 0px 0px 5px;
+  opacity: 1;
 }
 
 #sidebar.toggled {
@@ -103,6 +106,9 @@ li {
   flex-direction: column;
   color: #555555;
   font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 5px 0px 0px 5px;
+  opacity: 1;
 }
 
 .sidebar-menu li {
@@ -117,7 +123,7 @@ li {
   position: relative;
 }
 
-li.have-children ul li a img{
+li.have-children ul li a img {
   margin: 0 10px 0 0;
 }
 
@@ -269,16 +275,16 @@ span.scan {
 .order-heading {
   font-size: 18px;
 }
-.print{
+.print {
   display: flex;
   justify-content: flex-end;
   font-size: 14px;
   font-weight: normal;
 }
-.print-icon{
+.print-icon {
   margin: 0 10px 0 0;
 }
-.print h6{
+.print h6 {
   font-size: 14px;
   color: #555555;
 }
